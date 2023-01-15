@@ -1,0 +1,140 @@
+<!--
+Authors:  YUVARAJ KUMAR G P
+Created Date: 18 Dec 2022
+Updated Date: 07 Jan 2023
+Description: registration details
+-->
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <link rel="icon" href="../images/pic1.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anokha 2023 Registration</title>
+  <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+  <meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+  <link rel='stylesheet' href='styles.css' type='text/css' />
+  <script src="../java/validation.js"></script>
+</head>
+<style>  .main_body {
+  text-align: left;
+  border: 8px solid whitesmoke;
+  background: linear-gradient(to bottom, #8bbdd5 0%, #c08485 100%);
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+  border-radius: 10%;
+  padding: 5%;
+  font-size: 18px;
+  margin-top: -480px;
+  margin-left: 15%;
+  margin-right:10%;
+  
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+  margin-top:-450px ;
+  font-size:22px ;
+}
+body {
+background-image: url(../images/new.jpg);
+background-repeat: no-repeat; 
+background-size: cover; 
+opacity:0.8;
+}
+</style>
+<header>
+  <nav>   
+  <div style="margin-left: 16px;margin-top:50px ;">
+    <a href="" target="_blank"><img src="../images/logo .png" width="75px" height="75px" class="tw"> </a>
+    <a href="html/aboutme.htm" style="text-decoration:none;color:black;font-size:22px; margin-left: 20px;"><strong>AMRITA-UNIVERSITY</strong></p></a>
+</div> 
+
+<div style="margin-top:-70px; width: 150px;position: fixed;margin-left:1120px ;">
+      <a href="../index.html"style ="text-decoration:none;color:#61e6f0;font-size: 22px; margin-left: 20px;"><strong>Home</strong></p></a>
+      </div>
+      <div style="margin-top:-70px; width: 150px;position: fixed;margin-left:1230px ;">
+      <a href="aboutme.html" style="text-decoration:none;color:black;font-size:22px; margin-left: 20px;"><strong>About us</strong></p></a>
+      </div>
+      <div style="margin-top:-70px; width: 150px;position: fixed;margin-left:1365px ;">
+      <a href="registration.html" style="text-decoration:none;color:black;font-size:22px; margin-left: 20px;"><strong>Registration</strong></p></a>
+      </div>
+      <div style="margin-top:-70px; width: 150px;position: fixed;margin-left:1540px ;">
+      <a href="gallery.html" style="text-decoration:none;color:black;font-size:22px; margin-left: 20px;"><strong>GALLERY</strong></p></a>
+      </div>
+      <div style="margin-top:-70px; width: 150px;position: fixed;margin-left:1670px ;">
+      <a href="event..html" style="text-decoration:none;color:black;font-size:22px; margin-left: 20px;"><strong>EVENTS</strong></p></a>
+      </div>                   
+</nav>
+
+<div style="margin-top:40px; width: 150px;position: fixed">
+<div>
+<a href="" style="text-decoration:none;color:#61e6f0;font-size: 22px; margin-left: 20px;"><strong>Recap-2020</strong></p></a>
+</div>
+<br><br>
+<div>
+<a href="timeline.html" style="text-decoration:none;color:white;font-size:22px; margin-left: 20px;"><strong>Timeline </strong></p></a>
+</div>
+<br><br>
+<div>
+<a href="https://www.youtube.com/watch?v=B6hXvZnTguc" style="text-decoration:none;color:white;font-size:22px; margin-left: 20px;"><strong>2020 Day-1</strong></p></a>
+</div>
+<div style="margin-top: 60px">
+<a href="https://www.youtube.com/watch?v=tZtuf_sxObU" style="text-decoration:none;color:#ffffff;font-size:22px; margin-left: 20px;"><strong>2020 Day-2 </strong></p></a>
+</div>
+<br><br>
+<div>
+<a href="https://www.youtube.com/watch?v=Hnya4B13kZs" style="text-decoration:none;color:white;font-size:22px; margin-left: 20px;"><strong>2020 Day-3</strong></p></a>
+</div>
+<br><br>
+</div>  
+<div style="margin-left: 16px;margin-top:490px ;">
+<a href="https://twitter.com/anokha_techfest" target="_blank"><img src="../images/tw.png" width="30px" height="30px" class="tw"></a>
+<a href="https://www.facebook.com/anokha.amrita/" target="_blank"><img src="../images/fb.png" width="30px" height="30px" class="ln"></a>
+<a href="https://www.instagram.com/anokhatechfest/" target="_blank"><img src="../images/ig.png" width="30px" height="30px" class="ig"></a>
+</div>
+
+
+</header>
+<div class="content">
+  <body onload="document.registration.userid.focus();">
+    <form name='registration' onSubmit="return formValidation();">
+      <ul>
+        <label for="userid">User id:</label>
+        <input type="text" name="userid" size="12" /><br>
+        <label for="passid">Password:</label>
+        <input type="password" name="passid" size="12" /><br>
+        <label for="username">Name:</label>
+        <input type="text" name="username" size="12" /><br>
+        <label for="date">Date: </label>
+        <input type="date" name="DOB"> <br>
+        <label for="address">Address:</label>
+        <input type="text" name="address" size="12" /><br>
+        <label for="country">Branch:</label><br>
+        <select name="country">
+          <option selected="" value="Default">(Please select a Branch)</option>
+          <option value="AF">EEE</option>
+          <option value="AL">AIE</option>
+          <option value="DZ">CSE</option>
+          <option value="AS">CYS</option>
+          <option value="AD">ECE</option>
+        </select><br><br>
+        <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" /><br>
+        <label for="email">Email:</label></li>
+        <input type="text" name="email" size="12" /><br>
+        <label id="gender">Gender:</label><br>
+        <input type="radio" name="msex" value="Male" />Male<br>
+        <input type="radio" name="fsex" value="Female" />Female<br>
+        <input type="radio" name="fsex" value="Female" />Female<br>
+        <label for="profile-picture">Upload a profile picture:</label>
+        <input id="profile-picture" type="file" name="file" /><br>
+        <label for="desc">About:</label><br>
+        <textarea name="desc" id="desc"></textarea><br><br>
+        <input type="submit" name="submit" value="Submit" />
+      </ul>
+      </form> </div>     
+      
+  </body>
+  <p style="margin-top:-780px;margin-left:750px ;font-size:25px ;">REGISTRATION FORM</p>
+
+</html>
